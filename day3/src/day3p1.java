@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class day3 {
+public class day3p1 {
     public static int convertToPriority(String letter) {
         int value = (int) letter.charAt(0);
         if (value >= 97) {
