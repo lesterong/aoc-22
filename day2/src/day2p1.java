@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class day2 {
+public class day2p1 {
     public static void main(String[] args) {
         String path = new File("").getAbsolutePath();
         File file = new File(path + "/day2/src/day2.txt");
