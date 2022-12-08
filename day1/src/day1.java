@@ -23,6 +23,9 @@ public class day1 {
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
-        System.out.println(Collections.max(calories));
+        calories.sort((a, b) -> a < b ? 1 : -1);
+        System.out.println("Part 1: " + calories.get(0));
+        int sum = calories.get(0) + calories.get(1) + calories.get(2);
+        System.out.println("Part 2: " + sum);
     }
 }
